@@ -10,7 +10,9 @@ def index():
 
 @app.route('/html')
 def html_index():
-    return "<!doctype html><html><head><title>HTML Page</title></head><body>Hello World</body></html>"
+    return "<!doctype html> \
+    <html><head><title>HTML Page</title> </head> \
+    <body>Hello World</body></html>"
 
 @app.route('/animal')
 def animal_migration():
