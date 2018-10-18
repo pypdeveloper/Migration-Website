@@ -1,58 +1,93 @@
 <!DOCTYPE html>
 <html>
 	<head>
+<!-- old css tags 
+
 		<style type="text/css">
 			body {
 				background-color: skyblue;
 			}
+
 			nav ul {
 				background-color: tomato;
+				border-radius: 25px;
+    			background: #73AD21;
+    			padding: 20px; 
+    			width: 90%;
 			}
 
-			strong {
-				color: red;
-				font-family: sans-serif;
-			
+		</style>
+-->		
+		<style type="text/css">
+			nav ul {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    overflow: hidden;
+			    background-color: #333;
+				border-radius: 25px;
+    		}
+
+			li {
+			    float: left;
 			}
-		
+
+			li a {
+			    display: block;
+			    color: white;
+			    text-align: center;
+			    padding: 15px 16px;
+			    text-decoration: none;
+			}
+
+			/* Change the link color to #111 (black) on hover */
+			li a:hover {
+			    background-color: #111;
+			}				
+			p strong {
+				color: red;
+				font-family: sans-serif;			
+			}
+			p {
+				padding-left: 50px;
+			}
+			#image { 
+			    padding-left: 60px;
+			}
 		</style>
 		<title>Human migration</title>
 		<link type="text/css" rel="stylesheet" href="styles.css"/>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
-	 
-	 </nav> 
 	  <header>
 	    <nav>
-	 <ul>
-	 <li><a href="/">Home</a></li>
-     <li><a href="/animal_migration">Animal migration</a></li>
-	 </ul> 
-	  
+			 <ul>
+				 <li><a href="/">Home</a></li>
+			     <li><a href="/animal_migration">Animal migration</a></li>
+			 </ul> 
+		</nav>	  
 	  </header>
 	  <main>
 	 
-	  <p>
-	  <strong>What is migration</strong> <br>
-	  Miration is when you move from one place to another.
-      </p>
-      <p>
-	  <strong>What are refugees</strong> <br>
-	  Refugees are people that migrate because of war floods and some countries help the. <br>
-	  by giving money food and clothes <br>
-
+	 <p>
+		<strong>What is migration</strong> <br>
+		  	Miration is when you move from one place to another.
+	 </p>
+     <p>
+		  <strong>What are refugees</strong> <br>
+			  Refugees are people that migrate because of war, floods etc and some countries help them <br>
+			  by giving money, food and clothes <br>
 	  </p>
-	  <img src="https://cdn.cnn.com/cnnnext/dam/assets/160303085722-restricted-02-migrant-crisis-0303-super-169.jpg" />
+
+	  <div id="image">
+	  	<img src="https://cdn.cnn.com/cnnnext/dam/assets/160303085722-restricted-02-migrant-crisis-0303-super-169.jpg" />
+	  </div>
       
       <p>
       	<strong>What are the reasons people migrate</strong> <br>
       	One of the reasons people migrate is because of <br>
       	less jobs, family, education, house, because of war floods less food and lot's of other reasons.
-	  
-	  
-
-
 	  </p>
 	    
 	  <p><strong>Do you know that migrating is a good thing because <br> </strong>
