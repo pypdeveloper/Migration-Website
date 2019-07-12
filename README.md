@@ -1,9 +1,6 @@
 ## Welcome this site will give you Information on migration to vist the site click on this link below 
 
-You can use the [editor on GitHub](https://github.com/pypdeveloper/flask/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+Link to my Website here
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
